@@ -47,7 +47,7 @@
           const computerMove= pickComputerMove();
           if (playerMove==='scissors'){
           if (computerMove ==='rock')
-            result = 'You lose'
+            result = 'You lost'
           else if (computerMove === 'paper')
           result =' You win'
           else if (computerMove === 'scissors')
@@ -58,9 +58,9 @@
             if (computerMove ==='rock')
                  result = 'You win'
             else if (computerMove === 'paper')
-            result =' Tie'
+            result ='Tie'
             else if (computerMove === 'scissors')
-            result = 'You lose'
+            result = 'You lost'
                 }
 
           else {
